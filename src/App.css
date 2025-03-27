@@ -1,0 +1,64 @@
+.to-do-list {
+  width: 40%;
+  margin: 40px auto;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.to-do-list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.to-do-list input[type="text"] {
+  width: 70%;
+  height: 30px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.to-do-list button {
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.to-do-list button:hover {
+  background-color: #3e8e41;
+}
+
+.to-do-list ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.to-do-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.to-do-list li:last-child {
+  border-bottom: none;
+}
+
+.to-do-list .text {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.to-do-list .delete-button {
+  background-color: #e74c3c;
+  height: 40px;
+}
+
+.to-do-list .delete-button:hover {
+  background-color: #c0392b;
+}
