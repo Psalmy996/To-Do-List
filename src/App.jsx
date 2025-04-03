@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function ToDOList() {
+function App() {
   const [tasks, setTasks] = useState([
     "Morning prayer",
     "Workout",
@@ -51,4 +51,4 @@ function ToDOList() {
     </div>
   );
 }
-export default ToDOList;
+export default App;
